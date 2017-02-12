@@ -60,7 +60,7 @@ zstyle ':prezto:module:editor' key-bindings 'emacs'
 #
 
 # Ignore submodules when they are 'dirty', 'untracked', 'all', or 'none'.
-zstyle ':prezto:module:git:status:ignore' submodules 'all'
+zstyle ':prezto:module:git:status:ignore' submodules 'none'
 
 #
 # GNU Utility
@@ -120,7 +120,7 @@ zstyle ':prezto:module:prompt' theme 'garrett'
 #
 
 # Set the SSH identities to load into the agent.
-# zstyle ':prezto:module:ssh:load' identities 'id_rsa' 'id_rsa2' 'id_github'
+zstyle ':prezto:module:ssh:load' identities 'id_rsa' 'id_github'
 
 #
 # Syntax Highlighting
