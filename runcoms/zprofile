@@ -72,3 +72,6 @@ if [[ ! -d "$TMPDIR" ]]; then
 fi
 
 TMPPREFIX="${TMPDIR%/}/zsh"
+
+export PATH=~/.cabal/bin:$PATH
+

@@ -260,8 +260,9 @@ function prompt_garrett_setup {
   done
 
   # Color scheme.
-  eval prompt_garrett_color_pwd=\$\{${2:-'${blue}'}\}
-  # eval prompt_garrett_color_pwd=${2:-'${blue}'}
+  #eval prompt_garrett_color_pwd=\$\{${2:-'${blue}'}\}
+  #eval prompt_garrett_color_pwd=${2:-'${blue}'}
+  eval prompt_garrett_color_pwd=${2:-'${green}'}
   eval prompt_garrett_color_line_number=${5:-'${magenta}'}
   eval prompt_garrett_color_time=${6:-'${green}'}
   eval prompt_garrett_color_git_branch=${7:-'${green}'}
