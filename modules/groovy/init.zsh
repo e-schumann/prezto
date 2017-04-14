@@ -1,0 +1,1 @@
+path=($path /opt/software/groovy-2.4.10/bin)
