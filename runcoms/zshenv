@@ -13,6 +13,7 @@ fi
 path=(
    /home/thor/.cabal/bin
    $(ruby -e "print Gem.user_dir")/bin
+   /home/thor/develop/geoscript-groovy-1.9.0/bin
    $path
 )
 
