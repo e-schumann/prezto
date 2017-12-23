@@ -14,4 +14,10 @@ fi
 
 source ~/.local/bin/tmuxinator.zsh
 
+export JAVA_HOME="/usr/lib/jvm/default"; export JAVA_HOME
 
+#PATH="/home/thor/perl5/bin${PATH:+:${PATH}}"; export PATH;
+PERL5LIB="/usr/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+PERL_LOCAL_LIB_ROOT="/home/thor/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+PERL_MB_OPT="--install_base \"/home/thor/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=/home/thor/perl5"; export PERL_MM_OPT;

@@ -10,10 +10,14 @@ if [[ "$SHLVL" -eq 1 && ! -o LOGIN && -s "${ZDOTDIR:-$HOME}/.zprofile" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprofile"
 fi
 
+# export JAVA_HOME=/usr/lib/jvm/java-8-jdk
+
 path=(
    /home/thor/.cabal/bin
    $(ruby -e "print Gem.user_dir")/bin
-   /home/thor/develop/geoscript-groovy-1.9.0/bin
+#   /home/thor/develop/geoscript-groovy-1.9.0/bin
+#   /opt/software/eclipse/java-neon/eclipse
+#   /opt/software/apache-maven-3.5.0/bin
    $path
 )
 
