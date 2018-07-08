@@ -75,3 +75,12 @@ fi
 
 TMPPREFIX="${TMPDIR%/}/zsh"
 
+#
+# Virtualenv(wrapper)
+#
+
+
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/develop
+source /usr/bin/virtualenvwrapper.sh
+
